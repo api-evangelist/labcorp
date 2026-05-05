@@ -1,0 +1,13 @@
+{
+  "repo": "labcorp",
+  "feeds": [
+    {
+      "source": "https://www.labcorp.com/about/news",
+      "feed_url": "https://www.labcorp.com/rss.xml",
+      "saved": 10,
+      "title": "Labcorp"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:31:21Z"
+}
