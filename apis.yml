@@ -67,7 +67,7 @@ common:
   - url: https://www.labcorp.com/about/news
     type: Blog
   - url: https://www.labcorp.com/hipaa-privacy
-    type: Privacy Policy
+    type: PrivacyPolicy
   - url: https://ir.labcorp.com/
     type: Investor Relations
 maintainers:
