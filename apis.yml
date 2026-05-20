@@ -60,6 +60,10 @@ apis:
       - url: https://www.labcorp.com/help/contact-us
         type: Support
 common:
+  - type: GitHubOrganization
+    url: https://github.com/labcorp-clinical-development
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/labcorp
   - url: https://www.labcorp.com
     type: Website
   - url: https://www.labcorp.com/help
