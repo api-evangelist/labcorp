@@ -2,13 +2,6 @@
   "repo": "labcorp",
   "feeds": [
     {
-      "source": "https://www.labcorp.com/rss.xml",
-      "feed_url": "https://www.labcorp.com/rss.xml",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
-    },
-    {
       "source": "https://www.labcorp.com/about/news",
       "feed_url": "https://www.labcorp.com/about/news",
       "title": "",
@@ -17,5 +10,5 @@
     }
   ],
   "post_count": 17,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
