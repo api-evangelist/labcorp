@@ -60,6 +60,8 @@ apis:
       - url: https://www.labcorp.com/help/contact-us
         type: Support
 common:
+  - type: DomainSecurity
+    url: security/labcorp-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/labcorp-clinical-development
   - type: LinkedIn
