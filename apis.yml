@@ -1,4 +1,17 @@
 aid: labcorp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/labcorp.png
 url: https://raw.githubusercontent.com/api-evangelist/labcorp/refs/heads/main/apis.yml
 name: Labcorp
 type: Index
@@ -10,7 +23,7 @@ tags:
   - Laboratory
   - Life Sciences
 created: '2026-03-21'
-modified: '2026-04-28'
+modified: '2026-07-25'
 position: Consuming
 access: 3rd-Party
 specificationVersion: '0.19'
@@ -42,23 +55,6 @@ apis:
         type: Documentation
       - url: https://www.labcorp.com/help/contact-us
         type: Support
-  - aid: labcorp:labcorp-link-api
-    name: Labcorp Link Provider Integration
-    tags:
-      - EHR
-      - Healthcare
-      - Orders
-      - Results
-    humanURL: https://www.labcorp.com/labcorp-link
-    description: >-
-      Labcorp Link is the provider-facing platform for ordering laboratory tests
-      and receiving results. EHR-integrated workflows are supported via Labcorp's
-      integration team using HL7 v2 and FHIR-based interfaces.
-    properties:
-      - url: https://www.labcorp.com/labcorp-link
-        type: Documentation
-      - url: https://www.labcorp.com/help/contact-us
-        type: Support
 common:
   - type: DomainSecurity
     url: security/labcorp-domain-security.yml
@@ -76,6 +72,8 @@ common:
     type: PrivacyPolicy
   - url: https://ir.labcorp.com/
     type: Investor Relations
+  - type: Contact
+    url: https://www.labcorp.com/labcorp-link
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
