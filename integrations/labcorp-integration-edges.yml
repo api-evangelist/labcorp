@@ -1,4 +1,22 @@
-edges: []
+edges:
+- partner_name: CommonWell Health Alliance
+  partner: null
+  type: contract
+  channel: network-directory
+  relationship: network-participant
+  direction: partner-built
+  evidence: https://www.commonwellalliance.org/wp-json/wp/v2/pages?slug=commonwell-members&_fields=id,link,content
+  contract_reference:
+    network: CommonWell Health Alliance
+    spec_file: null
+    role: member
+    listed_name: Labcorp
+    listing_page: https://www.commonwellalliance.org/how-to-participate/commonwell-members/
+    network_id: labcorp.com
+    matched_domain: labcorp.com
+    detected_by: sweep-health-networks.py
+    detected: '2026-10-19'
 generated: '2026-10-12'
-method: none
-checked: []
+method: searched
+checked:
+- https://www.commonwellalliance.org/wp-json/wp/v2/pages?slug=commonwell-members&_fields=id,link,content
