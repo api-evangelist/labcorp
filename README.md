@@ -1,4 +1,4 @@
-# Labcorp (labcorp)
+# Labcorp
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,74 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Labcorp helps patients, providers, organizations, and biopharma companies guide vital healthcare decisions every day. Labcorp supports HL7 / FHIR-based integration for laboratory orders and results exchange with EHR systems.
+Labcorp helps patients, providers, organizations, and biopharma companies guide vital healthcare decisions every day. Labcorp supports HL7 / FHIR-based integration for laboratory orders and results exchange with electronic health record (EHR) systems, but does not publish a fully open public developer portal; access is granted through health-system and biopharma integration agreements.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/labcorp/refs/heads/main/apis.yml)
+**Areas:** Diagnostics · FHIR · Fortune 500 · Healthcare · Laboratory · Life Sciences
 
-## Scope
+## Labcorp on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Labcorp is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/labcorp/](https://apis.io/providers/labcorp/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Diagnostics
-- FHIR
-- Fortune 500
-- Healthcare
-- Laboratory
-- Life Sciences
+- [Labcorp FHIR API](https://apis.io/apis/labcorp/labcorp-fhir-api/) — Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. The interface…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Labcorp FHIR API
+Authentication, trust centre, and vulnerability disclosure.
 
-Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. Typical FHIR resources exposed include `ServiceRequest`, `DiagnosticReport`, `Observation`, `Patient`, `Practitioner`, `Specimen`, and `Organization`. Access is provisioned through Labcorp integration services.
+- [Labcorp Domain Security](https://apis.io/security/labcorp/labcorp-domain-security/)
 
-**Human URL:** [https://www.labcorp.com/organizations/health-systems](https://www.labcorp.com/organizations/health-systems)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- FHIR
-- HL7
-- Healthcare
-- Interoperability
-- Laboratory
+- [Labcorp Plans Pricing](https://apis.io/plans/labcorp/labcorp-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://www.labcorp.com/organizations/health-systems)
-- [Support](https://www.labcorp.com/help/contact-us)
+Published request limits.
 
+- [Labcorp Rate Limits](https://apis.io/rate-limits/labcorp/labcorp-rate-limits/)
 
-#### Tags
+#### FinOps (1)
 
-- EHR
-- Healthcare
-- Orders
-- Results
+What the API costs to run, by operation.
 
-#### Properties
+- [Labcorp Finops](https://apis.io/finops/labcorp/labcorp-finops/)
 
-- [Documentation](https://www.labcorp.com/labcorp-link)
-- [Support](https://www.labcorp.com/help/contact-us)
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.labcorp.com)
 - [Support](https://www.labcorp.com/help)
 - [Blog](https://www.labcorp.com/about/news)
-- [Privacy Policy](https://www.labcorp.com/hipaa-privacy)
-- [Investor Relations](https://ir.labcorp.com/)
+- [Privacy policy](https://www.labcorp.com/hipaa-privacy)
+- [GitHub](https://github.com/labcorp-clinical-development)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/labcorp/](https://apis.io/providers/labcorp/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Labcorp: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/labcorp/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
